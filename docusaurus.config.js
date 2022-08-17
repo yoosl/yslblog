@@ -10,8 +10,8 @@ module.exports = {
     navbar: {
       title: '尹舒络的博客',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: '这是我比较喜欢吃的食物之一',
+        src: 'img/hotdog.svg',
       },
       links: [
         {
@@ -39,9 +39,13 @@ module.exports = {
               href: 'https://staging-cn.vuejs.org',
             },
             {
-              label: '移动开发',
-              to: 'docs/doc2',
+              label: 'React',
+              href: 'https://react.docschina.org/',
             },
+            {
+              label: 'Koa',
+              href: 'https://www.koajs.com.cn/'
+            }
           ],
         },
         {
@@ -56,7 +60,7 @@ module.exports = {
               href: 'https://discordapp.com/invite/docusaurus',
             },
             {
-              label: '推特',
+              label: 'Twitter',
               href: 'https://twitter.com/docusaurus',
             },
           ],
@@ -75,7 +79,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Blog, Inc. Built with PEACEMINUSONE.`,
+      copyright: `Copyright © ${new Date().getFullYear()} YINSHULUO\`s Blog, Inc. Built with PEACEMINUSONE.`,
     },
   },
   presets: [
