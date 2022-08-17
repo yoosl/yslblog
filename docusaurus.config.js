@@ -1,14 +1,14 @@
 module.exports = {
-  title: 'My Site',
+  title: '尹舒络的博客',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://yinshuluo.top',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: '尹舒络的博客',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -17,12 +17,12 @@ module.exports = {
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: '记录',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: '博客', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/yoosl',
           label: 'GitHub',
           position: 'right',
         },
