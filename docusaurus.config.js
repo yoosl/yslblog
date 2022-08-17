@@ -32,50 +32,50 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '应用程序开发框架',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Vue.js',
+              href: 'https://staging-cn.vuejs.org',
             },
             {
-              label: 'Second Doc',
+              label: '移动开发',
               to: 'docs/doc2',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '我的社区',
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/users/9317407/one-peaceminus',
             },
             {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
             },
             {
-              label: 'Twitter',
+              label: '推特',
               href: 'https://twitter.com/docusaurus',
             },
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: '学校官网',
+              href: 'https://www.njmu.edu.cn',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/yoosl',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Blog, Inc. Built with PEACEMINUSONE.`,
     },
   },
   presets: [
